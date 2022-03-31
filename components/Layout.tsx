@@ -6,17 +6,17 @@ import { Footer } from "./Footer";
 import { Header } from "./Header";
 
 export function Layout({
-  app,
-  children,
+	app,
+	children,
 }: PropsWithChildren<{
-  app: AppMeta;
+	app: AppMeta;
 }>): JSX.Element {
-  return (
-    <div className={styles.Wrapper}>
-      <Header app={app} />
-      {children}
-      <Footer app={app} />
-      <Badge />
-    </div>
-  );
+	return (
+		<div className={styles.Wrapper}>
+			<Header app={app} />
+			{children}
+			<Footer app={app} />
+			<Badge />
+		</div>
+	);
 }
