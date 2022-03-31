@@ -41,11 +41,11 @@ export function Header({ app }: { app: AppMeta }): JSX.Element {
 				</Link>
 				<div className={styles.Link}>
 					<a
-						href="https://github.com/Newt-Inc/newt-blog2-starter-nextjs"
+						href="https://suzume.cc"
 						rel="noreferrer noopener"
 						target="_blank"
 					>
-						GitHub
+						雀
 					</a>
 				</div>
 				<div className={styles.Search}>
