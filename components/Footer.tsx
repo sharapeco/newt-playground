@@ -27,7 +27,7 @@ export function Footer({ app }: { app: AppMeta }) {
 						rel="noreferrer noopener"
 						target="_blank"
 					>
-						雀
+						suzume.cc
 					</a>
 				</div>
 			</div>
