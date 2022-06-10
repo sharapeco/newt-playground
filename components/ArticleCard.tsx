@@ -62,7 +62,7 @@ export function ArticleCard({ article }: { article: Content & Article }) {
 						)}
 						<div className={styles.Article_AuthorData}>
 							<span>{authorName}</span>
-							<time dateTime={formatDate(article._sys.createdAt)}>
+							<time dateTime={article._sys.createdAt}>
 								{formatDate(article._sys.createdAt)}
 							</time>
 						</div>
