@@ -7,7 +7,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Layout } from "../../components/Layout";
 import { fetchApp, fetchArticles } from "../../lib/api";
 import { Article } from "../../types/article";
-import { htmlToText } from "html-to-text";
+import { htmlToText } from "../../lib/html-to-text";
 
 export default function Search({ app }: { app: AppMeta }) {
   const router = useRouter();

@@ -12,7 +12,7 @@ import {
 } from "../../lib/api";
 import { formatDate } from "../../lib/date";
 import { Article } from "../../types/article";
-import { htmlToText } from "html-to-text";
+import { htmlToText } from "../../lib/html-to-text";
 import Link from "next/link";
 
 export default function ArticlePage({
